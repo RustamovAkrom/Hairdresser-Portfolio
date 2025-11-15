@@ -25,7 +25,7 @@ export default function Hero() {
           Dilfuza Halikova
         </h1>
         <p className="text-lg sm:text-xl text-white/90 drop-shadow-md">
-          Профессиональный парикмахер-стилист • колорист • мастер причесок
+          Universal tajribali ayolar soch sartaroshi • master • kolorist • oz ishini ustasi
         </p>
         <a
           href="#contact"

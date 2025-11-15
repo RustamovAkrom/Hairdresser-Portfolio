@@ -12,7 +12,7 @@ export default function About() {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        Обо мне
+        Men Haqimda
       </motion.h2>
 
       <div className="grid md:grid-cols-2 gap-10 items-center">
@@ -34,19 +34,17 @@ export default function About() {
           transition={{ duration: 0.8 }}
         >
           <p>
-            Привет! Я <span className="font-semibold text-pink-600">Dilfuza</span>, профессиональный парикмахер-стилист с более чем 7-летним опытом.
+            Salom! Mening ismim <span className="font-semibold text-pink-600">Dilfuza</span>, mening yoshim 40 da va sartoroshlik sohasida 25+ yildan beri shu sohani har hil yonalishlaini chuqur organib ishlab kelyapman.
           </p>
           <p>
-            Специализируюсь на <span className="text-pink-600 font-semibold">сложных техниках окрашивания</span>, стрижках и укладках.
-          </p>
-          <p>
-            Мой подход — индивидуальная работа с каждым клиентом: подбор цвета, формы и уходов. 
+            Mening asosiy tajribam shulardan iborat: soch kesish, makiyash, turmaklash, kelin chiqarish, haftalik qosh boyash, yillk rastishovka chizish, qoshlarga struktura bilan forma berish, mikrobleyding, yillik qosh chizish, 6 oylik himiya, viozaivka, 6 oylik jingalak qilish, keratin soch tekislash 3-6 oygacha, kuygan va zararlangan sochlar uchun vitaminli botext soch tekislash, yosh bolalar strijkasi, soch rangi boyicha kalorist.
+
           </p>
           <a
             href="#contact"
             className="mt-4 inline-block px-8 py-4 bg-pink-600 hover:bg-pink-700 text-white font-semibold rounded-2xl shadow-md transition transform hover:scale-105 w-max text-center"
           >
-            Записаться
+            Yozilish
           </a>
         </motion.div>
       </div>

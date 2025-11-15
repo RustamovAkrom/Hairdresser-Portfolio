@@ -10,10 +10,10 @@ export default function Header() {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const navLinks = [
-    { title: "О мастере", href: "#about" },
-    { title: "Услуги", href: "#services" },
-    { title: "Работы", href: "#portfolio" },
-    { title: "Контакты", href: "#contact" },
+    { title: "Master haqida", href: "#about" },
+    { title: "Hizmatlar", href: "#services" },
+    { title: "Ishlar", href: "#portfolio" },
+    { title: "Bog`lanish", href: "#contact" },
   ];
 
   return (
@@ -21,7 +21,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto flex items-center justify-between px-5 py-3">
         {/* Logo */}
         <h1 className="text-2xl font-bold tracking-wide dark:text-white">
-          HairStyler
+          AYOLAR SARTAROSHI
         </h1>
 
         {/* Desktop Navigation */}
@@ -43,7 +43,7 @@ export default function Header() {
             href="#contact"
             className="hidden sm:block bg-pink-500 text-white px-4 py-2 rounded-full hover:bg-pink-600 transition"
           >
-            Записаться
+            Royhatga yozilish
           </a>
           <ModeToggle />
 
@@ -80,7 +80,7 @@ export default function Header() {
             onClick={() => setIsOpen(false)}
             className="bg-pink-500 text-white px-4 py-2 rounded-full text-center hover:bg-pink-600 transition"
           >
-            Записаться
+            Royhatga yozilish
           </a>
         </nav>
       </div>

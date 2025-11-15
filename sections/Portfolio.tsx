@@ -45,7 +45,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="py-24 px-6 max-w-6xl mx-auto">
       <h2 className="text-4xl font-bold mb-10 text-center text-gray-900 dark:text-white">
-        Работы
+        Mening ishlarim
       </h2>
 
       {/* Сетка карточек */}
@@ -79,7 +79,7 @@ export default function Portfolio() {
             onClick={showMore}
             className="px-6 py-3 rounded-full bg-pink-600 text-white dark:bg-pink-500 dark:text-gray-900 font-semibold shadow hover:bg-pink-700 dark:hover:bg-pink-600 transition"
           >
-            Show More
+            Yana yuklash...
           </button>
         </div>
       )}

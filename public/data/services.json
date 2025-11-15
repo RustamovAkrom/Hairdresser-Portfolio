@@ -1,22 +1,37 @@
 [
   {
-    "title": "Окрашивание (Balayage, AirTouch)",
-    "desc": "Современные техники с плавными переходами и идеальным блондом.",
-    "icon": "Paintbrush"
-  },
-  {
-    "title": "Женская стрижка",
-    "desc": "Индивидуальный подбор формы по типу лица и структуре волос.",
-    "icon": "Scissors"
-  },
-  {
-    "title": "Укладка / Прически",
-    "desc": "Вечерние, свадебные, лёгкие и объёмные укладки.",
-    "icon": "Wand2"
-  },
-  {
-    "title": "Уходы",
-    "desc": "Восстановление, питание, ламинирование, ботокс для волос.",
-    "icon": "Droplet"
-  }
+      "title": "Soch bo‘yash (Balayage, AirTouch)",
+      "desc": "Zamonaviy texnikalar orqali silliq o‘tishlar va mukammal blyond olish.",
+      "icon": "Paintbrush"
+    },
+    {
+      "title": "Ayollar strijkasi",
+      "desc": "Yuz tuzilishi va soch strukturasiga mos ravishda individual tanlov.",
+      "icon": "Scissors"
+    },
+    {
+      "title": "Ukladka va prichoskalar",
+      "desc": "Kundalik, kechki, to‘y va boshqa barcha turdagi uslublar.",
+      "icon": "Wand2"
+    },
+    {
+      "title": "Soch tiklash va parvarish",
+      "desc": "Laminatsiya, keratin tekislash, botex, vitaminli regeneratsiya.",
+      "icon": "Droplet"
+    },
+    {
+      "title": "Bolalar soch kesimi",
+      "desc": "Har yoshdagi bolalar uchun qulay va chiroyli strijkalar.",
+      "icon": "Scissors"
+    },
+    {
+      "title": "Qosh xizmatlari",
+      "desc": "Qosh bo‘yash, forma berish, mikrobleyding, yillik qosh chizish.",
+      "icon": "Wand2"
+    },
+    {
+      "title": "Professional makiyaj",
+      "desc": "Kundalik, to‘y, fotosessiya va maxsus tadbirlar uchun vizaj xizmatlari.",
+      "icon": "Paintbrush"
+    }
 ]

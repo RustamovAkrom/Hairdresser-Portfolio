@@ -120,3 +120,26 @@
     @apply bg-background text-foreground;
   }
 }
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+}
+
+.section-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: reveal 0.8s ease forwards;
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@layer utilities {
+  .bg-glass {
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+  }
+}
